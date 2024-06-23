@@ -1,0 +1,113 @@
+.games-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/Users/dilipreddyseelam/Desktop/mental-health/mental-health-app/public/images/games/GB.png'); /* Update with the actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ensure it covers the full height of the page */
+  }
+  
+  .top-bar {
+    background-color: rgba(223, 207, 190, 0.9); /* Slightly transparent background */
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .menu-icon {
+    font-size: 2.4rem;
+    cursor: pointer;
+  }
+  
+  .menu-icon i {
+    color: black;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .search-bar {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .filters {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-filter {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  
+  .favorites-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .favorites-toggle label {
+    margin-left: 0.5rem;
+  }
+  
+  .content {
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 1rem;
+  }
+  
+  .main-content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .items {
+    margin-top: 2rem;
+  }
+  
+  .item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjusted for smaller blocks */
+    gap: 0.5rem; /* Adjusted for smaller gaps */
+  }
+  
+  .item {
+    background: white;
+    padding: 0.5rem; /* Reduced padding */
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .item-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem; /* Reduced margin */
+  }
+  
+  .favorite-button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 0.3rem 0.6rem; /* Reduced padding */
+    cursor: pointer;
+    border-radius: 0.3rem;
+    margin-top: 0.5rem;
+  }
+  
+  .favorite-button.favorite {
+    background-color: #ff9900;
+  }
+  
